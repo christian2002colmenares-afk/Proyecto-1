@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adiós Metformina | Recupera tu Control</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        :root { --brand-accent: #8e5431; --brand-bg: #fdfaf6; --font-serif: 'Playfair Display', serif; --border: #e2d1c3; }
+        body { font-family: 'Inter', sans-serif; color: #333; scroll-behavior: smooth; }
+        h1, h2, h3, h4, .serif { font-family: var(--font-serif); }
+        .accent { color: var(--brand-accent); }
+        .bg-accent { background-color: var(--brand-accent); }
+        .card-elegant { background: white; border: 1px solid var(--border); border-radius: 2rem; box-shadow: 0 10px 40px rgba(0,0,0,0.04); transition: all 0.4s ease; overflow: hidden; }
+        .card-elegant:hover { transform: translateY(-8px); box-shadow: 0 20px 50px rgba(142, 84, 49, 0.08); }
+        .img-mockup { transition: transform 0.5s ease; width: 100%; height: 100%; object-fit: contain; }
+        summary { list-style: none; }
+        summary::-webkit-details-marker { display: none; }
+    </style>
+</head>
+<body class="bg-white antialiased">
+
+    <!-- NAVEGACIÓN -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 py-2 flex justify-between items-center">
+            <img src="https://drive.google.com/thumbnail?id=1lRGLt3SeGlAGzt6C-eheh48Z6acgeNTV&sz=w1000" alt="Logo" class="h-24 md:h-32 w-auto object-contain">
+            <a href="#pricing" class="bg-accent text-white px-8 py-3 rounded-full text-sm font-bold shadow-lg hover:scale-105 transition">Empezar Ahora</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="py-16 md:py-28 px-6 max-w-6xl mx-auto text-center">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-orange-50 accent text-[10px] font-bold uppercase tracking-[3px] mb-6">Recupera tu Azúcar en 30 Días</span>
+        <h1 class="text-4xl md:text-7xl font-bold leading-[1.1] mb-8 text-gray-900 max-w-5xl mx-auto">Reduce tus niveles de azúcar y recupera energía en 30 días.</h1>
+        <p class="text-lg md:text-xl text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">Sin dietas imposibles, sin pasar hambre, sin contar calorías. Solo corrigiendo los errores metabólicos ocultos — <span class="italic font-medium underline decoration-orange-200 text-gray-800">incluso si llevas años medicándote.</span></p>
+        <a href="#pricing" class="inline-block bg-accent text-white px-10 py-5 rounded-2xl font-bold text-xl shadow-xl hover:scale-105 transition">Quiero recuperar mi control</a>
+    </header>
+
+    <!-- NARRATIVA -->
+    <section class="bg-[#fdfaf6] py-24 px-6">
+        <div class="max-w-3xl mx-auto space-y-8 text-lg md:text-xl leading-relaxed text-gray-700">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-10 text-center">Te dijeron que era para toda la vida.</h2>
+            <p>Que tendrías que acostumbrarte a vivir pendiente de los análisis, de los medicamentos y de lo que podías o no podías comer.</p>
+            <p>Y al principio luchaste. Intentaste cuidarte. Intentaste hacer las cosas bien. Pero con el tiempo apareció algo mucho más peligroso que el cansancio: <span class="font-bold text-gray-900">la resignación.</span></p>
+            <p>Porque cuando los números no mejoran como esperabas, cuando la energía desaparece y cuando tu cuerpo parece ignorar todos tus esfuerzos, empiezas a preguntarte si realmente es posible recuperar el control. <span class="accent italic text-2xl block text-center py-4">"Y eso es lo que más duele."</span></p>
+            <p>No es solo el peso. No es solo el azúcar. Es la sensación de que tu cuerpo ya no responde como antes. Mientras tanto, aparecen nuevas dietas y expertos, pero pocos explican por qué tu cuerpo actúa así. Y sin comprensión, no hay control.</p>
+            <p>La buena noticia es que cuando entiendes cómo funciona tu metabolismo, las cosas empiezan a cambiar. Recuperas claridad. Recuperas confianza.</p>
+        </div>
+    </section>
+
+    <!-- GRID DE MÓDULOS -->
+    <section class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16"><h2 class="text-4xl md:text-5xl font-bold italic">¿Qué desbloquearás?</h2></div>
+        <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+            <!-- Mod 1 -->
+            <div class="card-elegant">
+                <div class="aspect-[16/9] p-6 flex justify-center"><img src="https://drive.google.com/thumbnail?id=1dhGq-IC38SRZPHD4AoIkFtBC2VSQMdSG&sz=w1000" class="img-mockup"></div>
+                <div class="p-8"><span class="text-[10px] uppercase accent font-bold block mb-2">Módulo 01</span><h3 class="text-2xl font-bold mb-3">Mapa de Alimentación <span class="italic">Metabólica</span></h3><p class="text-gray-500 text-sm">Descubre los alimentos que más favorecen tu metabolismo. Deja de adivinar.</p></div>
+            </div>
+            <!-- Mod 2 -->
+            <div class="card-elegant">
+                <div class="aspect-[16/9] p-6 flex justify-center"><img src="https://drive.google.com/thumbnail?id=14UeBkFA90KTwZc4ZYIY5Ve2GQwjipHWH&sz=w1000" class="img-mockup"></div>
+                <div class="p-8"><span class="text-[10px] uppercase accent font-bold block mb-2">Módulo 02</span><h3 class="text-2xl font-bold mb-3">Protocolo <span class="italic">Antipicos de Energía</span></h3><p class="text-gray-500 text-sm">Aprende a organizar tus comidas para evitar el cansancio y el hambre intensa.</p></div>
+            </div>
+            <!-- Mod 3 -->
+            <div class="card-elegant">
+                <div class="aspect-[16/9] p-6 flex justify-center"><img src="https://drive.google.com/thumbnail?id=11p1wL4JpgqOdlbTdEmdqeHQe4ianJ0tH&sz=w1000" class="img-mockup"></div>
+                <div class="p-8"><span class="text-[10px] uppercase accent font-bold block mb-2">Módulo 03</span><h3 class="text-2xl font-bold mb-3">Hidratación <span class="italic">Inteligente</span></h3><p class="text-gray-500 text-sm">Guía simple para apoyar tu metabolismo a través de la hidratación estratégica.</p></div>
+            </div>
+            <!-- Mod 4 -->
+            <div class="card-elegant">
+                <div class="aspect-[16/9] p-6 flex justify-center"><img src="https://drive.google.com/thumbnail?id=1W2hXYn_kbqIli8EqT2hhznrIKshJ0dfm&sz=w1000" class="img-mockup"></div>
+                <div class="p-8"><span class="text-[10px] uppercase accent font-bold block mb-2">Módulo 04</span><h3 class="text-2xl font-bold mb-3">Detector de <span class="italic">Saboteadores</span></h3><p class="text-gray-500 text-sm">Identifica los hábitos diarios que parecen inofensivos pero frenan tu progreso.</p></div>
+            </div>
+            <!-- Mod 5 -->
+            <div class="card-elegant md:col-span-2">
+                <div class="grid md:grid-cols-2 items-center">
+                    <div class="aspect-video bg-[#f9f5f2] p-8 flex justify-center"><img src="https://drive.google.com/thumbnail?id=1iK3v9qa_cDjWqh3t-ipVk-DWDbKa4kDE&sz=w1000" class="img-mockup drop-shadow-2xl"></div>
+                    <div class="p-10"><span class="text-[10px] uppercase accent font-bold block mb-2">El Sistema Maestro</span><h3 class="text-4xl font-bold italic mb-4">Plan de Reinicio Metabólico</h3><p class="text-gray-600">Un sistema paso a paso para cambios sostenibles sin sacrificar tu vida social.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN IMPACTO: ENTENDER VS CONTROLAR (NUEVA IMAGEN) -->
+    <section class="py-24 px-6 bg-gray-900 text-white text-center">
+        <div class="max-w-5xl mx-auto">
+            <!-- IMAGEN SUSTITUYENDO ENCABEZADO -->
+            <img src="https://drive.google.com/thumbnail?id=1xM9r-wPuKjjORbuYX9Gl38Am0mAFdiAI&sz=w1000" alt="Entender vs Controlar" class="w-full max-w-4xl mx-auto rounded-3xl mb-12 shadow-2xl">
+            
+            <div class="grid md:grid-cols-2 gap-12 text-gray-400 text-lg text-left max-w-4xl mx-auto">
+                <p>No porque te falte fuerza de voluntad. Sino porque nadie te enseñó a entender cómo responde tu cuerpo. La mayoría intenta resolver el problema desde la superficie. Nosotros vamos a empezar desde la raíz.</p>
+                <p>Dejas de pelear contra tu cuerpo. Empiezas a colaborar con él. Y esa diferencia cambia completamente los resultados que puedes conseguir a largo plazo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARA QUIÉN ES ESTO -->
+    <section class="py-24 px-6 max-w-6xl mx-auto text-center md:text-left">
+        <h2 class="text-4xl font-bold mb-16 text-center italic">¿Para quién es esto?</h2>
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="space-y-4 border-l-2 border-orange-100 pl-8"><h3 class="text-xl font-bold italic">01. Recuperar el control</h3><p class="text-gray-600 text-sm">Si estás cansado de sentir que tu cuerpo decide por ti, aquí encontrarás una estrategia clara.</p></div>
+            <div class="space-y-4 border-l-2 border-orange-100 pl-8"><h3 class="text-xl font-bold italic">02. Sin éxito previo</h3><p class="text-gray-600 text-sm">Si ya probaste múltiples métodos y sigues buscando respuestas, este programa es para ti.</p></div>
+            <div class="space-y-4 border-l-2 border-orange-100 pl-8"><h3 class="text-xl font-bold italic">03. Resultados sostenibles</h3><p class="text-gray-600 text-sm">No buscas una solución temporal. Buscas construir hábitos que puedas mantener durante años.</p></div>
+        </div>
+    </section>
+
+    <!-- BONOS -->
+    <section class="py-24 px-6 bg-[#fdfaf6]">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-16 text-center italic">Bonos Exclusivos Incluidos</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
+                <div class="bg-white p-10 rounded-[2.5rem] border border-[#e2d1c3] shadow-sm"><h3 class="font-bold accent mb-4 italic">Bono #1: Detector Metabólico</h3><p class="text-sm text-gray-500">Identifica los pequeños hábitos que te hacen trabajar en la dirección equivocada.</p></div>
+                <div class="bg-white p-10 rounded-[2.5rem] border border-[#e2d1c3] shadow-sm"><h3 class="font-bold accent mb-4 italic">Bono #2: Menú de Emergencia</h3><p class="text-sm text-gray-500">Opciones simples para días con poco tiempo. Menos improvisación, más consistencia.</p></div>
+                <div class="bg-white p-10 rounded-[2.5rem] border border-[#e2d1c3] shadow-sm"><h3 class="font-bold accent mb-4 italic">Bono #3: Checklist de Progreso</h3><p class="text-sm text-gray-500">Herramienta para medir tu avance y detectar mejoras que suelen pasar desapercibidas.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING PAGO ÚNICO $20 -->
+    <section id="pricing" class="py-24 px-6">
+        <div class="max-w-xl mx-auto bg-white rounded-[3rem] shadow-2xl overflow-hidden border-4 border-orange-50 text-center">
+            <div class="bg-accent py-4 text-white text-[10px] font-bold uppercase tracking-[4px]">Oferta de Acceso de por Vida</div>
+            <div class="p-12">
+                <h2 class="text-4xl font-bold mb-4 italic">Invierte en tu Salud</h2>
+                <div class="text-7xl font-bold mb-4">$20 <span class="text-sm font-normal text-gray-400 italic">USD</span></div>
+                <p class="accent font-bold uppercase tracking-widest text-[10px] mb-10">Un solo pago para siempre</p>
+                <ul class="text-left space-y-4 mb-12 text-gray-600 max-w-xs mx-auto">
+                    <li class="flex items-center gap-3">✓ <span class="italic">Acceso ilimitado al programa y los 5 módulos</span></li>
+                    <li class="flex items-center gap-3">✓ <span class="italic">Los 3 Bonos Exclusivos incluidos gratis</span></li>
+                    <li class="flex items-center gap-3">✓ <span class="italic">Sin mensualidades ni pagos ocultos</span></li>
+                </ul>
+                <button class="w-full bg-accent text-white py-6 rounded-3xl font-bold text-2xl shadow-xl hover:scale-105 transition">OBTENER ACCESO DE POR VIDA</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-24 px-6 max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center italic">Preguntas Frecuentes</h2>
+        <div class="space-y-4">
+            <details class="group p-6 border-b border-gray-100 cursor-pointer"><summary class="flex justify-between items-center font-bold text-gray-800">¿Necesito seguir una dieta estricta?<span class="accent text-xl">↓</span></summary><p class="mt-4 text-gray-500 text-sm">No. El objetivo es ayudarte a desarrollar hábitos sostenibles, no imponer restricciones imposibles.</p></details>
+            <details class="group p-6 border-b border-gray-100 cursor-pointer"><summary class="flex justify-between items-center font-bold text-gray-800">¿Es apto para principiantes?<span class="accent text-xl">↓</span></summary><p class="mt-4 text-gray-500 text-sm">Sí. Todo está explicado paso a paso para que cualquier persona pueda aplicarlo fácilmente.</p></details>
+            <details class="group p-6 border-b border-gray-100 cursor-pointer"><summary class="flex justify-between items-center font-bold text-gray-800">¿Por qué cuesta solo $20?<span class="accent text-xl">↓</span></summary><p class="mt-4 text-gray-500 text-sm">Porque el objetivo es que esta información llegue al mayor número posible de personas.</p></details>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 text-center border-t border-gray-100">
+        <div class="flex justify-center mb-6"><img src="https://drive.google.com/thumbnail?id=1lRGLt3SeGlAGzt6C-eheh48Z6acgeNTV&sz=w500" class="h-16 w-auto grayscale opacity-60"></div>
+        <p class="text-[10px] text-gray-400 px-6 uppercase italic tracking-[4px]">© 2026 Salud Metabólica Consciente • Siempre consulte a su médico</p>
+    </footer>
+
+</body>
+</html>
